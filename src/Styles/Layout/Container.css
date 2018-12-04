@@ -1,0 +1,11 @@
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	grid-template-rows: 1fr;
+	grid-gap: 1rem;	
+	grid-template-areas:
+	"header header header"
+	"advert content content"
+	"footer footer footer"
+}
